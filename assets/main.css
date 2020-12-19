@@ -1,0 +1,63 @@
+/* CSS DONE FOR CONTACT HTML */
+/* WILL NEED TO DETERMINE IF ALL CAN STAY IN MAIN.CSS */
+
+/* background image */ 
+body {
+    background-image:url('img/circles-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* changed background color to header, main, footer */
+.bg-info {
+    background-color: silver!important;
+}
+
+/* apply color to <h1> */
+h1 {
+    color: #0870df;
+}
+
+/* text color in Contact section */
+.text-info {
+    color: black!important;
+}
+
+/* applying margin to all buttons */
+.btn{
+    margin: auto;
+}
+
+/* color of all buttons as-is */
+.btn-info {
+    background-color: silver;
+    border-color: black;
+    color: #0870df;
+}
+
+/* color of all buttons when hovered */
+.btn:hover{
+    background-color: #0870df;
+    border-color: whitesmoke;
+    color: orange;
+    transition: 1s;
+}
+
+/* adjusted bottom margin for these elements */
+#button, form, nav {
+    margin-bottom: 55px;
+}
+
+/* MDBootstrap link
+#mdBootstrap:hover {
+    color: white;
+    transition: 0.5s;
+} */
+
+/* css to index file */
+
+img{
+    width: 200%;
+    height: 100%;
+}
