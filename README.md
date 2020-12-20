@@ -3,7 +3,7 @@
 ## Description
 Creating a responsive portfolio webpage using bootstrap; broken into 3 files with links to navigate to each.
 ## What Was Done
-* Created the 3 HTML files
+* Created 3 HTML files - each containing a unique section of portfolio
     * index.html
     * portfolio.html
     * contact.html.
@@ -11,8 +11,8 @@ Creating a responsive portfolio webpage using bootstrap; broken into 3 files wit
     * main.css
     * portfolio.css
 
-* Include Bootstrap into each file and build responsive webpage with media queries - modifying style when screen size is adjusted.
-* Create a master CSS file (main.css) and link to all 3 HTML files - so users can navigate from one section to anoter.
+* Include Bootstrap into each file and build responsive webpage with media queries - modifying style when screen size is modified.
+* Create a master CSS file (main.css) and link to all 3 HTML files. Portfolio file also has its own unique CSS file.
 
 ## Bootstrap Portfolio
 About Me              |      Portfolio       | Contact
