@@ -1,0 +1,23 @@
+/* specific media styling on portfolio file */
+
+/* style for screens with max of 992px */
+@media screen and (max-width:992px){
+    h1{
+        color: #0870df!important;
+    }
+    .btn{
+        border-color: green!important;
+        color: white!important;
+    }
+}
+
+/* style for screens with max of 768px */
+@media screen and (max-width:768px){
+    h1{
+        color: #0870df!important;
+    }
+    .btn{
+        border-color: green!important;
+        color: white!important;
+    }
+}

@@ -5,11 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
 
-        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/main.css" />
 
         <title>About Me</title>
 
@@ -21,74 +22,73 @@
         <header class="container">
 
             <!-- Nav bar -->
-            <nav class="row navbar navbar-expand-lg navbar-dark bg-info">
+            <nav class="row navbar navbar-expand-lg navbar-dark bg-info bg-media">
 
                 <h1 class="col-8">Ivan Orellana Jr</h1>
 
+                <!-- toggle function when screen resolution is decreased -->
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- buttons to direct you to differnt sections -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <button class="btn btn-info my-2 my-sm-0" type="submit">About Me</button>
-                    <button class="btn btn-info my-2 my-sm-0" type="submit">Portfolio</button>
-                    
-                    
-                    <a href="https://github.com/iorellana21/bootstrap-portfolio/blob/main/contact.html"><button class="btn btn-info my-2 my-sm-0" type="submit">Contact</button></a>
-
+                    <a href="index.html"><button class="btn btn-info my-2 my-sm-0" type="submit">About Me</button>
+                    </a>
+                    <a href="portfolio.html"><button class="btn btn-info my-2 my-sm-0" type="submit">Portfolio</button>
+                    </a>
+                    <a href="contact.html"><button class="btn btn-info my-2 my-sm-0" type="submit">Contact</button>
+                    </a>
                 </div>
             </nav>
-
         </header>
 
-        <main class="container bg-info col-6">
-
+        <!-- About Me section -->
+        <main class="container bg-info bg-media col-8">
             <section class="container">
                 <article class="row">
                     <div class="col-12">
-                        <h2>
-                            About Me!
-                        </h2>
+                        <h2>About Me!</h2>
                         <figure class="row">
                             <div class="col-4">
                                 <img src="assets/img/icons.jpg" alt="icons" class="img-fluid" />
                             </div>
                             <figcaption class="col-8">
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been
-                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley
-                                    of type and scrambled it to make a type specimen book.
+                                    Hello! My Name is Ivan Orellana Jr. I am interested in programming and would like to
+                                    use this bootcamp to reach my goal in becoming a software developer.
                                 </p>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been
-                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley
-                                    of type and scrambled it to make a type specimen book.
+                                    I currently work for a software company and would like to use the skills learned
+                                    from the bootcamp to transition into a technical role and become a developer.
+                                </p>
+                                <p>
+                                    Some fun facts about me: my nickname is Fish, I am a die-hard Knicks fan and
+                                    I am more proud of my wife every day
                                 </p>
                             </figcaption>
                         </figure>
-                    </div>
-
                     </div>
                 </article>
             </section>
         </main>
 
-        <!-- added container class, bg-info,text-light, margin-top set to 5, id btTag to a tag 
-        <footer class="container">
-            <div class="footer-copyright bg-info text-dark text-center py-3 mt-5">© 2020 Copyright:
-                <a id="mdBootstrap" href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <!-- Footer -->
+        <footer class="container bg-info bg-media col-5">
+            <div class="row bg-info text-center py-1 mt-5">
+                <a href="https://www.linkedin.com/in/ivan-orellana-jr-07bb82140/" target="_blank">
+                    <img src="assets/img/linkedIn.png" class="img-fluid" />
+                </a>
+                <a href="https://github.com/iorellana21" target="_blank">
+                    <img src="assets/img/github.jpg" class="img-fluid" />
+                </a>
             </div>
-        </footer> -->
+        </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
-
 </html>
