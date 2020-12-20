@@ -11,18 +11,18 @@ Creating a responsive portfolio webpage using bootstrap; broken into 3 files wit
     * main.css
     * portfolio.css
 
-* Include Bootstrap into each file and build responsive webpage with media queries.
-* Create a master CSS file (main.css) and link to all 3 HTML files
+* Include Bootstrap into each file and build responsive webpage with media queries - modifying style when screen size is adjusted.
+* Create a master CSS file (main.css) and link to all 3 HTML files - so users can navigate from one section to anoter.
 
 ## Bootstrap Portfolio
 About Me              |      Portfolio       | Contact
 :-------------------------:|:-------------------------:|:-------------------------:
-![alt text]( "About Me")  |  ![alt text]( "Portfolio") |  ![alt text]( "Contact Me")
+![alt text](https://raw.githubusercontent.com/iorellana21/bootstrap-portfolio/main/assets/img/AboutMe.png "About Me")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/bootstrap-portfolio/main/assets/img/Portfolio.png "Portfolio") |  ![alt text](https://raw.githubusercontent.com/iorellana21/bootstrap-portfolio/main/assets/img/Contact.png "Contact Me")
 
 
 Contact (max-width 768px)               |      Contact (max-width 992px)
 :-------------------------:|:-------------------------:
-![alt text]( "Contact768")  |  ![alt text]( "Contact992")
+![alt text](https://raw.githubusercontent.com/iorellana21/bootstrap-portfolio/main/assets/img/Contact-768mw.png "Contact768")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/bootstrap-portfolio/main/assets/img/Contact-992mw.png "Contact992")
 
 ## Credits
 * [Stack Overflow](https://stackoverflow.com/) - building the table for Before and After
